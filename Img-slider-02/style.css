@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color:#404040;
+  }
+   .scroll img{
+     width: 100%;
+     height:auto;
+     float:left;
+     margin: 10px;
+     padding-right:10px;
+   }
+  
+   .view img{
+     width: 60%;
+     height: auto;
+     float: right;
+     margin: 10px;
+   }
+  .container{
+    margin: auto;
+  }
+  
+  .view{
+    padding:5px;
+  }
+  
+  .scroll{
+    width: 35%;
+    height:100vh;
+    float:left;
+    background-color:#404040;
+    padding:10px 10px 10px 10px;
+    overflow: scroll;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
